@@ -4,6 +4,7 @@ initial = int(input("Ingrese número de la semana inicial: "))
 end = int(input("Ingrese número final del semana: "))
 print(list[initial:end])
 '''
+
 '''
 lista = [1,2,4,5,6,7,8,9,10]
 indice = int(input("Ingrese el apendice donde desea agregar el valor: "))
@@ -31,10 +32,11 @@ lista = [1,2,4,5,6,7,8,9,10]
 lista.pop()
 print(lista)
 '''
+
 '''
-lista = [1,2,4,5,6,7,8,9,10]
+lista = [1,2,3,4,5,6,7,8,9,10]
 #eliminar
-lista.remove()
+lista.remove(5)
 print(lista)
 '''
 
