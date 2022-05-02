@@ -1,5 +1,5 @@
 pesochavo = int(input())
-pesoquico = int((pesochavo+2)+4)
+pesoquico = int((pesochavo*2)+4)
 pesonono = int((pesochavo+pesoquico)/5)
 
 print(pesochavo,pesoquico,pesonono)
