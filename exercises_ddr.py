@@ -105,4 +105,3 @@
 # rango2 = list(range(15,21))
 # final = rango1 + rango2
 # print(final)
-
