@@ -18,7 +18,6 @@ for elemento in listadodeventas:
         contadorcasasdelujo = contadorcasasdelujo + 1
         contadorapartamentoslujo = contadorapartamentoslujo + 1
 
-
     if contadorcasasdelujo > contadorapartamentoslujo:
         resultadoanalisis = resultadoanalisis + "C"
     elif contadorcasasdelujo < contadorapartamentoslujo:
