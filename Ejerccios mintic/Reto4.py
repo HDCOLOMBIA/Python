@@ -1,23 +1,23 @@
 from sys import setrecursionlimit
 import json
-from pprint import print
+from pprint import pprint
 
-catologo = input("")
+catologo = input(" ")
 data = json.loads(catologo)
 
-servicios = input("")
+servicios = input(" ")
 
 listaServicios = servicios.split()
 
 serSolicitado = []
 valorSer = []
-valorTotal = []
+valorTotal = 0
 
-for j in  listaServicios:
+for j in listaServicios:
     if j in data:
         valorSer.append(data[j])
         valorTotal = sum(valorSer)
         serSolicitado.append(j)
 
 print(valorTotal)
-print("".join(serSolicitado))
+print(" ".join(serSolicitado))
