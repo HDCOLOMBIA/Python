@@ -15,7 +15,7 @@ def posiciones_con_cancion(listadeposiciones, listacanciones2, numeroentero):
     return resultadoposicion
 
 
-def solo_categoria_x(categoria_x, categoria_y):
+def solo_categoria_X(categoria_x, categoria_y):
 
     soloen_categoria_x = []
     for element in categoria_x:
